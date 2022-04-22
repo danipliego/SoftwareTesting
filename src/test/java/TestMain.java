@@ -24,8 +24,7 @@ public class TestMain {
 
     @Test
     public void testCountVowels() {
-        main = new Main();
-        assertEquals(3, main.countVowels("magenta"));
+
     }
 
     @Test
