@@ -9,17 +9,7 @@ public class Main {
     }
 
     public int countVowels(String word) {
-        int count = 0;
 
-        char[] wordChars = word.toCharArray();
-
-        for (char chr: wordChars) {
-            if(chr == 'a' || chr == 'A' || chr == 'e' || chr == 'E' || chr == 'i' || chr == 'I' || chr == 'o' || chr == 'O' || chr == 'u' || chr == 'U') {
-                count = count + 1;
-            }
-        }
-
-        return count;
     }
 
     public int countConsonants(String word) {
