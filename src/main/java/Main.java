@@ -1,7 +1,5 @@
 public class Main {
-///
-    public static void main(String[] args) {
-        System.out.println("BYEEE!!!");
+    public static void main() {
     }
     //Author: Daniel Pliego
     //Description: This function count the consonants of the string that the user give as an input. Test: testLengthWord()
