@@ -12,6 +12,8 @@ public class IntegrationTest {
         main = new Main();
         assertNotEquals(main, null);
     }
+    //Author: Daniel Pliego
+    //Description: This Test returns if the lenght of the word is the same os the consonant+vowels
     @Test
     public void testVowelsAndConsonants() {
         main = new Main();
